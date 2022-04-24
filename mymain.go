@@ -10,10 +10,10 @@ import (
 func main() {
 
 	someString := golangdependencyexampletwo.GetSomeString()
-	fmt.Println(someString, "should look like", "OBIWAN KENOBI")
+	fmt.Println(someString, "should look like", "obiwan kenobi")
 
 	someString2 := "Anakin Skywalker"
 	someString2Modified := golangdependencyexampleone.DoSomething(someString2)
-	fmt.Println(someString2Modified, "should look like", "ANAKIN SKYWALKER")
+	fmt.Println(someString2Modified, "should look like", "anakin skywalker")
 
 }
